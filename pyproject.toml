@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "djangogirls-blog"
+version = "0.1.0"
+description = "The blog application created following the django-girls tutorial"
+authors = ["Mohit Bansal"]
+readme = "README.md"
+packages = [{include = "djangogirls_blog"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
