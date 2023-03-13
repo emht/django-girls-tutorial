@@ -18,14 +18,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
-
+# TODO(Use .env files)
 import os
-SECRET_KEY = os.getenv('SECRET_KEY')
+SECRET_KEY = os.getenv('SECRET_KEY', '37#zc3j7qwucwl2xvsigs)auaimz=+dlf8#%0agu%^!3z2(kms')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['1270.0.1', ]
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 
 # Application definition
